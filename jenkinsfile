@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/aniket-platform/Docker-Pipeline.git'
+                checkout scm 
             }
         }
 
