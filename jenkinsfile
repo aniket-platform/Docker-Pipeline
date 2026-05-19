@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/ashokitschool/spring-boot-docker-app.git'
+                git 'https://github.com/aniket-platform/Docker-Pipeline.git'
             }
         }
 
